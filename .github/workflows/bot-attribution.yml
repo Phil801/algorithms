@@ -1,0 +1,5 @@
+name: Bot attribution
+on: { pull_request: {}, workflow_dispatch: {} }
+jobs:
+  verify:
+    uses: Phil801/home-brain/.github/workflows/bot-attribution.yml@main
